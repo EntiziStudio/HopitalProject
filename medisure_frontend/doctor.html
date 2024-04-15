@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="description" content="Orbitor,business,company,agency,modern,bootstrap4,tech,software">
+	<meta name="author" content="themefisher.com">
+  
+	<title>VNPT- Y Tế chăm sóc sức khỏe</title>
+	<link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico" />
+	<link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="plugins/icofont/icofont.min.css">
+	<link rel="stylesheet" href="plugins/slick-carousel/slick/slick.css">
+	<link rel="stylesheet" href="plugins/slick-carousel/slick/slick-theme.css">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="js/menu.js"></script>
+	<script src="js/doctor.js"></script>
+	<script>
+	  window.onload = function(){
+		  loadmenu();
+		  loadAllSpecialist();
+	  }
+	</script>
+</head>
+
+<body id="top">
+<header id="menu"></header>
+
+
+<section class="page-title bg-1">
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block text-center">
+          <span class="text-white">Tất cả bác sĩ</span>
+          <h1 class="text-capitalize mb-5 text-lg">Bác sĩ chuyên gia</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- portfolio -->
+<section class="section doctors">
+  <div class="container">
+  	  <div class="row justify-content-center">
+             <div class="col-lg-6 text-center">
+                <div class="section-title">
+                    <h2>Những bác sĩ</h2>
+                    <div class="divider mx-auto my-4"></div>
+                    <p>Chúng tôi cung cấp một loạt các dịch vụ sáng tạo ưu tú. </p>
+                </div>
+            </div>
+        </div>
+
+      <div class="col-12 text-center  mb-5">
+	        <div class="btn-group btn-group-toggle listspecialistuser" data-toggle="buttons" id="listspecialist">
+	          <label class="btn active ">
+	            <input type="radio" name="shuffle-filter" value="all" checked="checked" />Tất cả bộ phận
+	          </label>
+	        </div>
+      </div>
+
+    <div class="row shuffle-wrapper portfolio-gallery" id="listdoctor">
+
+      <div class="col-lg-3 col-sm-6 col-md-6 mb-4 shuffle-item illustration" data-groups="[&quot;cat2&quot;]">
+        	<div class="position-relative doctor-inner-box">
+		        <div class="doctor-profile">
+		        	<div class="doctor-img">
+		               <img src="images/team/hinhtheDat.jpg" alt="doctor-image" class="img-fluid w-100">
+		             </div>
+	             </div>
+                <div class="content mt-3">
+                	<h4 class="mb-0"><a href="doctor-single.html">Nguyễn Công Đạt</a></h4>
+                	<p>Nha khoa</p>
+                </div> 
+	      	</div>
+        </div>
+		<div class="col-lg-3 col-sm-6 col-md-6 mb-4 shuffle-item illustration" data-groups="[&quot;cat2&quot;]">
+        	<div class="position-relative doctor-inner-box">
+		        <div class="doctor-profile">
+		        	<div class="doctor-img">
+		               <img src="images/team/quang.jpg" alt="doctor-image" class="img-fluid w-100" >
+		             </div>
+	             </div>
+                <div class="content mt-3">
+                	<h4 class="mb-0"><a href="doctor-single.html">Nguyễn Văn Quang</a></h4>
+                	<p>Nha khoa</p>
+                </div> 
+	      	</div>
+        </div>
+		<div class="col-lg-3 col-sm-6 col-md-6 mb-4 shuffle-item illustration" data-groups="[&quot;cat2&quot;]">
+        	<div class="position-relative doctor-inner-box">
+		        <div class="doctor-profile">
+		        	<div class="doctor-img">
+		               <img src="images/team/tien.jpg" alt="doctor-image" class="img-fluid w-100">
+		             </div>
+	             </div>
+                <div class="content mt-3">
+                	<h4 class="mb-0"><a href="doctor-single.html">Nguyễn Nhật Á Tiên</a></h4>
+                	<p>Nha khoa</p>
+                </div> 
+	      	</div>
+        </div>
+		<div class="col-lg-3 col-sm-6 col-md-6 mb-4 shuffle-item illustration" data-groups="[&quot;cat2&quot;]">
+        	<div class="position-relative doctor-inner-box">
+		        <div class="doctor-profile">
+		        	<div class="doctor-img">
+		               <img src="images/team/minh.jpg" alt="doctor-image" class="img-fluid w-100">
+		             </div>
+	             </div>
+                <div class="content mt-3">
+                	<h4 class="mb-0"><a href="doctor-single.html">Nguyễn Vũ Đức Minh</a></h4>
+                	<p>Nha khoa</p>
+                </div> 
+	      	</div>
+        </div>
+    </div>
+  </div>
+</section>
+<!-- /portfolio -->
+<section class="section cta-page">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-7">
+				<div class="cta-content">
+					<div class="divider mb-4"></div>
+					<h2 class="mb-5 text-lg">Chúng tôi hân hạnh phục vụ bạn. <span class="title-color">Cơ hội để sức khỏe tốt.</span></h2>
+					<a href="appoinment.html" class="btn btn-main-2 btn-round-full">Nhận cuộc hẹn<i class="icofont-simple-right  ml-2"></i></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+    
+    <!-- Main jQuery -->
+    <script src="plugins/jquery/jquery.js"></script>
+    <script src="plugins/bootstrap/js/popper.js"></script>
+    <script src="plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script src="plugins/counterup/jquery.easing.js"></script>
+    <script src="plugins/slick-carousel/slick/slick.min.js"></script>
+    <script src="plugins/counterup/jquery.waypoints.min.js"></script>
+    <script src="plugins/shuffle/shuffle.min.js"></script>
+    <script src="plugins/counterup/jquery.counterup.min.js"></script>
+    <script src="plugins/google-map/map.js"></script>
+    <script src="js/script.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAkeLMlsiwzp6b3Gnaxd86lvakimwGA6UA&callback=initMap"></script>    
+
+  </body>
+  </html>
